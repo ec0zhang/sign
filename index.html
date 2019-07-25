@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #test-form{
+            width: 300px;
+            height: 300px;
+            margin: 0 auto;
+            margin-top: 100px;
+        }
+        #test-form1{
+            width: 300px;
+            height: 300px;
+            margin: 0 auto;
+            margin-top: 100px;
+            /*display: none;*/
+        }
+    </style>
+</head>
+<body>
+<!--<div id="test-signIn">-->
+<!--    <form id="test-form" method="post" onsubmit="return checkForm()">-->
+<!--        <leable>用户名<input id="username" type="text" name="username"> </leable>-->
+<!--        <br/>-->
+<!--        <leable>密码<input id="password" type="password" name="password"> </leable>-->
+<!--        <br/>-->
+<!--&lt;!&ndash;        <input type="submit" id="test-button" value="Submit">&ndash;&gt;-->
+<!--        <button type="submit" id="test-button"> Submit</button>-->
+<!--    </form>-->
+<!--</div>-->
+
+<div id="test-signUp">
+    <form id="test-form1" onsubmit="return checkForm1()">
+        <leable>用户名<input id="username1" type="text" name="username"> </leable>
+        <br/>
+        <leable>密码<input id="password1" type="password" name="password"> </leable>
+        <br/>
+        <leable>再次输入密码<input id="password2" type="password" name="password2"> </leable>
+        <br/>
+<!--        <input type="button" id="test-button1" value="Submit">-->
+        <button type="submit" id="test-button1">Submit</button>
+    </form>
+</div>
+
+<script src="JavaScript/regexp.js"></script>
+<script src="JavaScript/index-ajax.js"></script>
+<script src="JavaScript/app.js"></script>
+</body>
+</html>
